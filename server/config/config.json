@@ -1,0 +1,30 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "pharmacorp_database_dev",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false,
+    "saltRounds": 4,
+    "tokenExpireTime": "2",
+    "jwtSecret": "pharmacorp_token secret",
+    "token_secret": "gtydkboevnwdzrtrefrcedssppkgbeferufkcjn"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}

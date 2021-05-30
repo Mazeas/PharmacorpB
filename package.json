@@ -1,0 +1,39 @@
+{
+  "name": "pharmacorp",
+  "version": "1.0.0",
+  "description": "Pharmaceutical company",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon ./bin/www",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HHongois/pharmacorp.git"
+  },
+  "author": "Quentin Plain, Charlie Gas, Hongois Hubert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HHongois/pharmacorp/issues"
+  },
+  "homepage": "https://github.com/HHongois/pharmacorp#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "connect-datadog": "0.0.9",
+    "express": "^4.17.1",
+    "hot-shots": "^6.8.5",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "mysql2": "^2.0.1",
+    "pg": "^7.14.0",
+    "request": "^2.88.0",
+    "sequelize": "^5.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}
