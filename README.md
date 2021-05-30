@@ -1,7 +1,7 @@
 # pharmacorpB
 
 Lien our consulter la documentation :
-http://163.172.122.64:8000/doc/
+http://localhost:8000/doc/
 
 
 Pour lancer le projet en local executer la commande
@@ -22,7 +22,7 @@ Pour effectuer des test fonctionnel depuis postman voici les code json a rentrer
 
 Creation d'un Utilisateur :
 route {post}: 
-http://163.172.122.64:8000/pharmacorp/user/signUp
+http://localhost:8000/pharmacorp/user/signUp
 
 code json :
 
@@ -41,7 +41,7 @@ code json :
 
 Connexion d'un Utilisateur :
 route {post}: 
-http://163.172.122.64:8000/pharmacorp/user/signIn
+http://localhost:8000/pharmacorp/user/signIn
 code json :
 
 {
@@ -60,7 +60,7 @@ code json :
 
 Update d'un Utilisateur :
 route {put}: 
-http://163.172.122.64:8000/pharmacorp/user/1/update
+http://localhost:8000/pharmacorp/user/1/update
 code json :
 
 {
@@ -74,7 +74,7 @@ code json :
 
 Creation d'un medicament :
 route {post}: 
-http://163.172.122.64:8000/pharmacorp/drugs/create
+http://localhost:8000/pharmacorp/drugs/create
 code json :
 
 {
@@ -91,7 +91,7 @@ code json :
 
 Creation d'un medicament :
 route {post}: 
-http://163.172.122.64:8000/pharmacorp/drugs/create
+http://localhost:8000/pharmacorp/drugs/create
 code json :
 
 {
@@ -110,7 +110,7 @@ code json :
 
 Modification d'un medicament :
 route {put}: 
-http://163.172.122.64:8000/pharmacorp/drugs/2/update
+http://localhost:8000/pharmacorp/drugs/2/update
 code json :
 
 {
@@ -129,7 +129,7 @@ code json :
 
 Creation d'un droit :
 route {post}: 
-http://163.172.122.64:8000/pharmacorp/right/create
+http://localhost:8000/pharmacorp/right/create
 code json :
 
 {
@@ -139,7 +139,7 @@ code json :
 
 Modification d'un droit :
 route {put}: 
-http://163.172.122.64:8000/pharmacorp/right/1/update
+http://localhost:8000/pharmacorp/right/1/update
 code json :
 
 {
@@ -149,7 +149,7 @@ code json :
 
 Creation d'une commande :
 route {post}: 
-http://163.172.122.64:8000/pharmacorp/orders/create
+http://localhost:8000/pharmacorp/orders/create
 code json :
 
 {
@@ -173,7 +173,7 @@ code json :
 
 Modification d'une commande :
 route {put}: 
-http://163.172.122.64:8000/pharmacorp/orders/1/update
+http://localhost:8000/pharmacorp/orders/1/update
 code json :
 
 {
